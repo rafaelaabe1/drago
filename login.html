@@ -1,12 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css" />
-    <title>Login</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Passero+One&display=swap" rel="stylesheet">
+  <title>Login</title>
+
+  <style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Passero One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+    body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #00c6fb;
+    }
+
+    .login-box {
+      background: #7F9D92;
+      padding: 40px;
+      width: 320px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+      text-align: center;
+    }
+
+    .login-box h2 {
+    margin-bottom: 25px;
+    color: #8D2C1F;
+    font-family: "Passero One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+    .input-box {
+      margin-bottom: 20px;
+    }
+
+    .input-box input {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      outline: none;
+      transition: 0.3s;
+    }
+
+    .input-box input:focus {
+      border-color: #4facfe;
+      box-shadow: 0 0 5px #4facfe;
+    }
+
+    .btn-login {
+      width: 100%;
+      padding: 12px;
+      border: none;
+      background: #B8736F;
+      color: black;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .btn-login:hover {
+      background: #00c6fb;
+    }
+
+    .link {
+      margin-top: 20px;
+      font-size: 20px;
+    }
+
+    .link a {
+      text-decoration: none;
+      color: #B8736F;
+    }
+  </style>
 </head>
 <body>
-    
+
+  <div class="login-box">
+    <h2>Login</h2>
+
+    <div class="input-box">
+      <input type="email" placeholder="Digite seu e-mail">
+    </div>
+
+    <div class="input-box">
+      <input type="password" placeholder="Digite sua senha">
+    </div>
+
+    <button class="btn-login">Cadastrar</button>
+
+    <button class="btn-login">Logar</button>
+
+  </div>
+
 </body>
 </html>
