@@ -1,3 +1,13 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: #6E7B3C;
 }
@@ -21,11 +31,13 @@ a {
     color: black;
 }
 
-.img{
+.card{
     margin: 10px;
-    display: flex;
-    justify-content: center;
-    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: center;
     background-color: #43633F;
 }
 
@@ -52,10 +64,42 @@ a {
     background: #3A420E;
 }
 
-.card1 {
-    margin: 10px;
+.cards{
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
     display: flex;
-    justify-content: center;;
+}
+
+.card1 {
+    margin: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #43633F;
+}
+
+.card2{
+    margin: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #43633F;
+}
+
+.card3{
+    margin: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #43633F;
+}
+
+img{
+    border-radius: 20px;
 }
 
 p{
