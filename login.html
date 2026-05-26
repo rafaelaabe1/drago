@@ -31,6 +31,11 @@
       width: 320px;
       box-shadow: 0 5px 20px rgba(0,0,0,0.2);
       text-align: center;
+      }
+
+  .home-link {
+  font-weight: bold;
+  text-decoration: none;
     }
 
     .login-box h2 {
@@ -94,11 +99,32 @@
       margin: 10%;
     }
 
+    .login {
+      display: flex;
+      justify-content: space-between; 
+      padding: 20px;
+      background-color: #000000;
+      position: absolute;
+      top: 20px; 
+      left: 20px; 
+      text-decoration: none;
+      background: #7F9D92;
+      color: #000000;
+      padding: 10px 15px;
+      border-radius: 5px;
+      float: left;
+      margin: 10px;
+    }
+
   </style>
 </head>
 <body>
 
   <div class="login-box">
+    <div class="login">
+      <a href="index.html" class="home-link">Home</a>
+    </div>
+
     <h2>Login</h2>
 
     <div class="input-box">
