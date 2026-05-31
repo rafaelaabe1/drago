@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Passero+One&display=swap" rel="stylesheet">
+  <title>Cadastro</title>
+
+  <style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Passero One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+    body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url('./img/dragom.jpg.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+
+    .login-box {
+      background: #7F9D92;
+      padding: 40px;
+      width: 320px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+      text-align: center;
+      border: 20px solid #60766E;
+      padding: 20px;
+      border: 20px solid#60766E;
+    }
+
+    .home-link {
+      font-weight: passero one;
+      text-decoration: none;
+      color: #000000;
+    }
+
+    .login-box h2 {
+    margin-bottom: 25px;
+    color: #8D2C1F;
+    font-family: "Passero One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+    .input-box {
+      margin-bottom: 20px;
+    }
+
+    .input-box input {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      outline: none;
+      transition: 0.3s;
+    }
+
+    .btn-login {
+      width: 100%;
+      padding: 12px;
+      border: none;
+      background: #B8736F;
+      color: black;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .link {
+      margin-top: 20px;
+      font-size: 20px;
+    }
+
+    .link a {
+      text-decoration: none;
+      color: #B8736F;
+    }
+    
+    .botoes {
+      display: flex;       
+      gap: 20px;
+
+    }
+
+    .botoes {
+      display: grid;
+      grid-template-columns: auto auto; 
+      gap: 50px;
+      width: max-content; 
+      margin: 10%;
+    }
+
+    .login {
+      display: flex;
+      justify-content: space-between; 
+      padding: 20px;
+      background-color: #000000;
+      position: absolute;
+      top: 20px; 
+      left: 20px; 
+      text-decoration: none;
+      background: #7F9D92;
+      color: #000000;
+      padding: 10px 15px;
+      border-radius: 5px;
+      float: left;
+      margin: 10px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="login-box">
+    <div class="login">
+      <a href="index.html" class="home-link">Home</a>
+    </div>
+
+    <h2>Cadastrar</h2>
+
+    <div class="input-box">
+      <input type="Login" placeholder="Digite seu Login">
+    </div>
+
+    <div class="input-box">
+      <input type="password" placeholder="Digite sua senha">
+    </div>
+
+    <div class="input-box">
+        <input type="Nome" placeholder="Digite seu Nome">
+    </div>
+
+    <div class="input-box">
+     <input type="Email" placeholder="Digite seu e-mail">
+    </div>
+
+    <div class="botoes">
+      <button class="btn-login"><a>Cadastrar</a></button>
+
+      <button class="btn-login">Cancelar</button>
+    </div>
+
+  </div>
+
+</body>
+</html>
